@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Monchis</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <link href="css/style.css" rel="stylesheet" media="screen" type="text/css"/>
+        <link rel="stylesheet" href="touchcarousel/touchcarousel.css" />
+       
+	<!-- Skin stylesheets, include to your site only that what you need -->
+	<link rel="stylesheet" href="touchcarousel/minimal-light-skin/minimal-light-skin.css" />	
+	
+
+    <script type="text/javascript" src="js/jquery.js"></script>	
+	<script src="touchcarousel/jquery.touchcarousel-1.1.min.js"></script> 
+	<script type="text/javascript" src="js/popup.js"></script>
+
+	
+       
+<link href="css/style2.css" rel="stylesheet" media="screen" type="text/css"/>
+      
+
+       
+    </head>
+
+    <body>
+  
+        <div id="page3">
+       	
+	  
+	<a  href="index.html" >	<span id="dientes"> </span>
+		</a>
+	
+	   		 
+	   		 
+	   		 
+	<div id="carousel-single-image-a" class="touchcarousel   minimal-light">       
+			<ul class="touchcarousel-container">
+				<li class="touchcarousel-item">
+					    <img src="images/cupon.png" id="cupon1"/>  
+				</li>
+				
+			
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				<li class="touchcarousel-item">
+					<img src="images/cupon.png"/>
+			
+				</li>
+				
+			</ul>
+		</div>
+
+
+		
+	
+
+    
+	<span id="dientes2" href="index.html" >	</span>
+	
+	
+	  <a id="contacts" href="contacts.html" >	
+	    </a>
+		
+	    <a id="volver" href="index.html" >		
+		</a>
+		
+			<div id="marquee2">
+
+		
+			<marquee behavior="scroll" direction="right"> 
+				<p> Tu publicidad Aquí </p>
+		
+			</marquee>
+		
+</div>
+ 
+	</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			
+			$("#carousel-single-image-a").touchCarousel({
+				pagingNav: true,
+				scrollbar: false,
+				directionNavAutoHide: false,				
+				itemsPerMove: 1,				
+				loopItems: true,				
+				directionNav: false,
+				autoplay: false,
+				autoplayDelay: 2000,
+				useWebkit3d: true,
+				transitionSpeed: 400
+			});
+			});
+			
+			
+			
+			$("#cupon1").click(function(){
+				
+				$("#page2").append("<img src='images/cupon.png' class='cupon-up' id='cuponG1'/>"+
+									"<span id='guardar-cupon'></span>");
+						$("#guardar-cupon").click(function(){
+							$('#guardar-cupon').remove();
+							$('#cuponG1').animate({
+												left:"445px",
+												top:"35px",
+												width:"20px",
+												height:"5px"
+												  }, 5000, function() {
+														$('#cuponG1').remove();
+														
+		
+	
+												  });
+						});
+			
+			});
+			
+			
+			
+    </script>
+	
+    </body>
+</html>

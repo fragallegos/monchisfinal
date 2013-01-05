@@ -1,0 +1,71 @@
+#backgroundPopup{  
+	display:none;  
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/  
+	width: 320px;
+	height: 430px; 
+	top:0;  
+	left:0;  
+	background:transparent;  
+	border:1px solid #cecece;  
+	z-index:1;  
+	margin: 0 auto;
+}  
+#popupContact{  
+	display:none;  
+	position:absolute;  
+	height:270px;  
+	width:200px; 
+	background: transparent url(../images/cupon.png);   
+	z-index:2;  
+	padding:12px;   
+}  	
+#popupContact h1{  
+	position:absolute;
+	top:30px;
+	left:50px;
+	font-family:Arial;
+	text-align:left;  
+	color:#fff;  
+	font-size:22px;  
+	font-weight:700;  
+ } 
+.lineapopup{
+	background: transparent url(img/lineapopup.png); 
+	position:absolute;
+	top:60px;
+	left:15px;
+	width:750px;
+	height:9px;
+}
+#popupContactClose{  
+	background: transparent url(img/close.png); 
+	position:absolute;
+	top:10px;
+	left:770px;
+	width:20px;
+	height:20px;
+}  
+.contactArea{
+	position:absolute;
+	top:170px;
+	left:570px;
+	font-family:Arial;
+	font-size:12px;
+	color:#FFF;
+	padding-right:30px;
+}
+.contactArea-up{
+	position:absolute;
+	top:115px;
+	left:380px;
+	font-family:Arial;
+	font-size:12px;
+	color:#FFF;
+	padding-right:30px;
+}
+.image-pop{
+	position:absolute;
+	top:100px;
+	left:10px;
+}

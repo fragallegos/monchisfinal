@@ -1,0 +1,125 @@
+#carousel-single-image {
+			width: 320px;
+			height: 400px;
+			margin: 0 auto;			
+			top:-1px;
+		}
+		#carousel-single-image .touchcarousel-container {
+			height: 100%;
+			background: url(../images/bannercupones.png) repeat;
+		}
+		#carousel-single-image .touchcarousel-item {
+			margin-right: 0;
+			width: 400px;
+			height: 700px;
+		}
+		#carousel-single-image img {
+			width: 270px;
+			height: 310px;
+			margin: 20px 0 0 20px;	
+			float:left;
+			position: relative;
+			display: block;
+			padding: 3px;
+			background: url(../images/cupones.png) repeat;
+			border: 0;
+		
+		}
+		#carousel-single-image .tc-paging-container {
+			margin-top: -60px;
+		}
+
+
+
+	.cupon-up{
+			position: absolute;
+			/*nos posicionamos en el centro del navegador*/
+			top:50px;
+			left:50%;
+			/*determinamos una anchura*/
+			width:310px;
+			/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+			margin-left:-155px;
+
+		}
+		span.guardar-cupon{
+			position:absolute;
+			width:30px;
+			height:20px;
+			top:50%;
+			left:50%;
+			margin-left:-15px;
+			margin-top:-10px;
+		}
+		
+#guardar-cupon {
+	width: 113px;
+		height:24px;
+		top:60px;
+		left:170px;
+			position: absolute;
+			display: block;
+			padding: 3px;
+			background: url(../images/guardar.png) repeat;
+			border: 0;
+		}
+
+
+		
+#x{
+	width: 30px;
+		height:30px;
+		top:60px;
+		left:170px;
+			position: absolute;
+			display: block;
+			padding: 3px;
+			background: url(../images/x.png) repeat;
+			border: 0;
+		}
+
+#monstro{
+top:5px;
+position:absolute;
+left:50%;
+height:45px;
+
+margin-left:120px;
+
+}
+
+
+
+
+
+#carousel-single-image2 {
+			width: 320px;
+			height: 430px;
+			margin: 0 auto;			
+			top:-1px;
+		}
+		#carousel-single-image2 .touchcarousel-container {
+			height: 100%;
+			background: url(../images/bannercupones.png) repeat;
+		}
+		#carousel-single-image2 .touchcarousel-item {
+			margin-right: 0;
+			width: 400px;
+			height: 700px;
+		}
+		#carousel-single-image2 img {
+			width: 270px;
+			height: 310px;
+			margin: 20px 0 0 20px;	
+			float:left;
+			position: relative;
+			display: block;
+			padding: 3px;
+			background: url(../images/cupones.png) repeat;
+			border: 0;
+		
+		}
+		#carousel-single-image2 .tc-paging-container {
+			margin-top: -80px;
+		}
+
